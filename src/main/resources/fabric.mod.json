@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "playerbot",
+  "version": "${version}",
+  "name": "PlayerBot",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "nl.dirkkok.playerbot.PlayerBotMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+  "jars": [
+    { "file": "javacord-api-3.4.0.jar" },
+    { "file": "javacord-core-3.4.0.jar" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
